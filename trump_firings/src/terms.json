@@ -2,6 +2,81 @@
     {
         "id": 1,
         "name": "James Comey",
-        "mugshot": ""
+        "mugshot": "../src/images/Comey.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sally Yates",
+        "mugshot": "../src/images/Yates.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Michael Flynn",
+        "mugshot": "../src/images/Flynn.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Preet Bharara",
+        "mugshot": "../src/images/Preet.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Walter Schaub",
+        "mugshot": "../src/images/Schaub.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Reince Priebus",
+        "mugshot": "../src/images/Priebus.png"
+    },
+    {
+        "id": 7,
+        "name": "Sean Spicer",
+        "mugshot": "../src/images/Spicer.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Anthony Scaramucci",
+        "mugshot": "../src/images/Scaramucci.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Steve Bannon",
+        "mugshot": "../src/images/Bannon.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Sebastian Gorka",
+        "mugshot": "../src/images/Gorka.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Omarosa Manigault",
+        "mugshot": "../src/images/Omarosa.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Andrew McCabe",
+        "mugshot": "../src/images/McCabe.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Hope Hicks",
+        "mugshot": "../src/images/Hicks.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Gary Cohn",
+        "mugshot": "../src/images/Cohn.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Rex Tillerson",
+        "mugshot": "../src/images/SexyRexy.jpg"
+    },
+    {
+        "id": 16,
+        "name": "H.R. McMaster",
+        "mugshot": "../src/images/McMaster.jpg"
     }
 ]
