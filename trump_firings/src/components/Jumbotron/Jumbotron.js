@@ -1,9 +1,9 @@
 import React from "react";
-import './Jumbotron.css'
+//import "./Jumbotron.css"
 
-const Jumbotron = ({ children }) => (
+const Jumbotron = (props) => (
   <div className="jumbotron">
-    {children}
+    {props.children}
   </div>
 );
 

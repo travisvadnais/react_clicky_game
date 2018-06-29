@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar/Navbar.js';
-import Jumbotron from './components/Jumbotron/Jumbotron.js';
+import Jumbotron from './components/Jumbotron/';
 import PersonCard from './components/PersonCard/PersonCard.js';
 import hitlist from './terms.json';
 import './App.css';
@@ -54,6 +54,11 @@ class App extends Component {
           hi_score={this.state.hi_score}
           directions={this.state.directions}
         />
+        <Jumbotron>
+          <h2>Test Your Memory!</h2>
+          <hr/>
+          <h5>See how many people you can click without repeating</h5>
+        </Jumbotron>
         {/* mx-auto will center the div on the page and 'justify-content-center' will center the content WITHIN the div*/}
         <div className="d-flex flex-wrap justify-content-center col-lg-10 mx-auto carousel">
           {
