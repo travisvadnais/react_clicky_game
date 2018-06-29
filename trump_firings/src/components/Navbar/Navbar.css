@@ -1,0 +1,18 @@
+ul {
+  display: block;
+  width: 100%;
+}
+
+nav.navbar {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+li {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
