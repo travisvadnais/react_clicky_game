@@ -1,18 +1,25 @@
-ul {
-  display: block;
-  width: 100%;
-}
-
-nav.navbar {
+nav.fixed-top {
   height: 70px;
   width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 1;
+  background-color: rgb(21, 11, 87)!important;
+  border-bottom: 2px solid darkred;
+}
+
+ul {
+  display: block;
+  width: 50%;
+}
+
+a.page-refresh {
+  width: 33%;
 }
 
 li {
-  display: inline-block;
-  width: 33%;
   text-align: center;
+  color: whitesmoke;
+}
+
+span.score {
+  width: 49%;
+  color: whitesmoke!important;
 }

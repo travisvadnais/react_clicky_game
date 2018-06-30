@@ -1,3 +1,7 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+
 .App {
   text-align: center;
 }
@@ -21,6 +25,10 @@
 .App-intro {
   font-size: large;
 } 
+
+div.carousel {
+  margin-bottom: 50px;
+}
 
 img {
   width: 165px;

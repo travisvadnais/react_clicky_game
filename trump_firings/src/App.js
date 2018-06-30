@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './components/Navbar/Navbar.js';
 import Jumbotron from './components/Jumbotron/';
 import PersonCard from './components/PersonCard/PersonCard.js';
+import Footer from './components/Footer/'
 import hitlist from './terms.json';
 import './App.css';
 
@@ -49,7 +50,7 @@ class App extends Component {
     return (
       <div className="container">
         <Navbar 
-          item1="Clicky Game"
+          item1="You're Fired!"
           score={this.state.score}
           hi_score={this.state.hi_score}
           directions={this.state.directions}
@@ -57,7 +58,10 @@ class App extends Component {
         <Jumbotron>
           <h2>Test Your Memory!</h2>
           <hr/>
-          <h5>See how many people you can click without repeating</h5>
+          <br/>
+          <h5>Trump has fired so many people that he's lost track and needs your help remembering who he's canned. </h5>
+          <br/><br/>
+          <h5>Your goal is to click each of the photos below to remind Trump who he's fired - but don't click the same one twice or you'll be added to the list!</h5>
         </Jumbotron>
         {/* mx-auto will center the div on the page and 'justify-content-center' will center the content WITHIN the div*/}
         <div className="d-flex flex-wrap justify-content-center col-lg-10 mx-auto carousel">
@@ -77,6 +81,7 @@ class App extends Component {
               />
           ))}
         </div>
+        <Footer/>
       </div>
     );
   }

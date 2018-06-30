@@ -2,19 +2,19 @@ import React from 'react';
 import "./Navbar.css";
 
 const Navbar = props => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <ul className="navbar-nav">
-      <li className="nav-item active">
-        <a className="nav-link" href="">{props.item1}</a>
-      </li>
-      <li className="nav-item">
-        {props.directions}
-      </li>
-      <li className="nav-item">
+  <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a className="navbar-brand page-refresh" href="">{props.item1}</a>
+    <div className="collapse navbar-collapse" id="navbarText">
+      <ul className="navbar-nav mr-auto">
+        <li className="nav-item active">
+          {props.directions} <span className="sr-only">(current)</span>
+        </li>
+      </ul>
+      <span className="navbar-text score">
         Score: {props.score} | Hi Score: {props.hi_score}
-      </li>
-    </ul>
-</nav>
+      </span>
+    </div>
+  </nav>
 )
 
 export default Navbar;
